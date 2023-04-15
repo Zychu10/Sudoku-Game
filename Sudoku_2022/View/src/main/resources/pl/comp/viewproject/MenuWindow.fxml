@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="TOP_CENTER" prefHeight="560.0" prefWidth="780.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.comp.viewproject.MenuController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+
+   <Label fx:id="welcomeText" alignment="CENTER" contentDisplay="CENTER" prefHeight="130.0" prefWidth="740.0" text="%game.title">
+      <font>
+         <Font name="DejaVu Serif Bold" size="48.0" />
+      </font></Label>
+   <Label fx:id="difficultyLevel" alignment="CENTER" contentDisplay="CENTER" prefHeight="38.0" prefWidth="320.0" text="%difficulty.title">
+      <font>
+         <Font name="Eras Demi ITC" size="24.0" />
+      </font>
+   </Label>
+   <Button fx:id="easyButton" mnemonicParsing="false" onAction="#pressButtonEasy" prefHeight="50.0" prefWidth="400.0" text="%button.easy.title">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="mediumButton" mnemonicParsing="false" onAction="#pressButtonMedium" prefHeight="50.0" prefWidth="400.0" text="%button.medium.title">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="hardButton" mnemonicParsing="false" onAction="#pressButtonHard" prefHeight="50.0" prefWidth="400.0" text="%button.hard.title">
+      <font>
+         <Font size="18.0" />
+      </font>
+   </Button>
+   <Button fx:id="exitButton" mnemonicParsing="false" onAction="#pressCloseButton" text="%button.exit">
+      <font>
+         <Font size="14.0" />
+      </font>
+   </Button>
+   <ComboBox fx:id="comboBox1" onAction="#chooseLanguage" prefHeight="25.0" prefWidth="252.0" promptText="%language.title" />
+   <Label fx:id="authorsLabel" alignment="CENTER" prefHeight="201.0" prefWidth="386.0" textAlignment="CENTER" />
+   <ComboBox fx:id="comboBox2" onAction="#pressComboBox" prefHeight="25.0" prefWidth="261.0" promptText="%comboBox2.title" />
+</VBox>
