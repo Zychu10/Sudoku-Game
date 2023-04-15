@@ -18,7 +18,6 @@ Sudoku Game is a Maven project for Component Programming course at Technical Uni
 
 - GUI created in JavaFX
 - Components/Generic programming
-- Model-View-Controller design pattern using DAO
 - Bactracking algorithm
 - Internationalization
 - Serialization
