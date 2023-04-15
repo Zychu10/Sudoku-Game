@@ -3,7 +3,7 @@ Sudoku Game is a Maven project for Component Programming course at Technical Uni
 
 ## The game give user following options:
 - In menu :
-     * Choosing the difficulty level of game (Easy, Medium, Hard)
+     * Choosing the difficulty level of game
      * Loading a previous game from a local database
      * Language selection between Polish and English
      * Displaying authors of the program
